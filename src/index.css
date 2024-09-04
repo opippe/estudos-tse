@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background for the entire app */
+}
+
+.App {
+  text-align: left;
+  max-width: 1200px; /* Limit the maximum width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+  background-color: white; /* Background color for the content area */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 10px;
+}
+
+header {
+  background: #282c34;
+  padding: 1em;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly; /* Center the navigation items */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold; /* Make the links bold for better visibility */
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #61dafb; /* React blue for the hover effect */
+}
+
+.content {
+  padding: 20px;
+}
+
+.App ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.App ul li {
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  background-color: #f9f9f9; /* Light grey background for list items */
+  border: 1px solid #ddd; /* Border to separate the items */
+  border-radius: 4px; /* Rounded corners for list items */
+  transition: background-color 0.2s; /* Smooth transition on hover */
+}
+
+.App ul li:hover {
+  background-color: #e9e9e9; /* Slightly darker grey on hover */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd; /* Underline for subheadings */
+  padding-bottom: 0.5rem;
+}
