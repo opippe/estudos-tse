@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://opippe.github.io/",
+  "homepage": "https://opippe.github.io/estudos-tse/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
